@@ -839,7 +839,6 @@ canvas {
 }
 .back-card__subcard,
 .front-card__subcard {
-  z-index: 2;
   position: absolute;
   right: 20px;
   padding: 0.375rem 0.75rem;
@@ -888,6 +887,10 @@ canvas {
 .front-card {
   background-color: #fff;
 }
+.front-card__subcard {
+  z-index: 2;
+}
+
 .back-card {
   background-color: #1111ff;
   transform: rotateY(180deg);
