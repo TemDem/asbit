@@ -272,7 +272,7 @@ canvas {
 }
 
 .swiper {
-  touch-action: pan-x;
+  touch-action: pan-y;
 }
 
 .header {
@@ -713,6 +713,11 @@ canvas {
   flex-direction: column;
   justify-content: center;
 }
+@media (max-width: 47.99875em) {
+  .main-section {
+    min-height: 0;
+  }
+}
 .main-section__container {
   padding-top: 400px;
   transform: translate(0, -200px);
@@ -723,6 +728,12 @@ canvas {
   .main-section__container {
     padding-top: 300px;
     transform: translate(0, -150px);
+  }
+}
+@media (max-width: 47.99875em) {
+  .main-section__container {
+    padding-top: 260px;
+    transform: translate(0, -130px);
   }
 }
 .main-section__title {
