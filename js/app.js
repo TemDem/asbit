@@ -3247,7 +3247,7 @@
     document.addEventListener("click", (function(e) {
         if (!e.target.closest(".menu__body") && document.documentElement.classList.contains("menu-open")) document.documentElement.classList.remove("menu-open");
     }));
-    const linksNav = document.querySelectorAll(".menu__link._scroll-link");
+    const linksNav = document.querySelectorAll("._scroll-link");
     if (linksNav.length) linksNav.forEach((el => {
         el.dataset.goto = "#" + el.href.split("#")[1];
         el.addEventListener("click", (function(e) {
