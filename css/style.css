@@ -775,6 +775,11 @@ canvas {
   padding-top: 14.5px;
   margin-top: -160px;
 }
+@media (max-width: 61.99875em) {
+  .cards-section__slider {
+    margin-top: -100px;
+  }
+}
 @media (max-width: 47.99875em) {
   .cards-section__slider {
     margin: 0;
